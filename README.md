@@ -13,6 +13,12 @@ set by default so it's not mandatory :
 - `distortion`
 - `radius`
 
+The function will return a list of items `{x,y,scale}` according to the fisheye
+parameters.
+
+How you use those values is up to you, but generally, you already have a function
+to draw your items with `{x,y}` that you can just reuse.
+
 ## Example
 
 ```javascript
