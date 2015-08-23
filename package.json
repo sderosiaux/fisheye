@@ -1,6 +1,6 @@
 {
   "name": "fisheye",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fisheye algorithm",
   "main": "index.js",
   "keywords": [ "fisheye", "bubble", "chart", "transform", "dataviz" ],
