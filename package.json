@@ -1,0 +1,19 @@
+{
+  "name": "fisheye",
+  "version": "1.0.0",
+  "description": "Fisheye algorithm",
+  "main": "index.js",
+  "keywords": [ "fisheye", "bubble", "chart", "transform", "dataviz" ],
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chtefi/fisheye.git"
+  },
+  "author": "Stéphane D.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chtefi/fisheye/issues"
+  },
+  "homepage": "https://github.com/chtefi/fisheye#readme"
+}
