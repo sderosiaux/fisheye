@@ -26,6 +26,7 @@ const items = [
 // draw(items);
 
 const f = fisheye();
+// const f = fisheye(4, 300); // more distortion, bigger radius
 
 const mousePointer = { x: 15, y: 15 };
 const itemsFisheyed = items.map(f(mousePointer));
