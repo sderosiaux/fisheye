@@ -24,7 +24,7 @@ to draw your items with `{x,y}` that you can just reuse.
 ## Example
 
 ```javascript
-import fisheye from './index.js';
+import fisheye from 'fisheye';
 
 const items = [
   { x: 10, y: 20 },
@@ -48,4 +48,15 @@ const itemsFisheyed = items.map(f(mousePointer));
 //     y: 15,
 //     scale: 1.9421209303593685 }
 // ]
+```
+## Following mouse pointer
+
+Most likely, you'll do something following the mouse pointer, such as:
+
+```javascript
+onMouseMove(e) {
+  const transform = f({ x: e.clientX, y: e.clientY });
+  const items = this.state.items.map(transform);
+  this.setState({ items });
+}
 ```
