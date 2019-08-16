@@ -2,7 +2,7 @@
 
 Easily create a fisheye effect anywhere you need it.
 
-[Demo](http://chtefi.github.io/react-motion-fun/demo2.html)
+[Demo](http://sderosiaux.github.io/react-motion-fun/demo2.html)
 
 ## Parameters
 
